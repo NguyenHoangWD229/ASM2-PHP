@@ -1,0 +1,24 @@
+{
+    "name": "hoangwd/asm-2",
+    "autoload": {
+        "psr-4": {
+            "Hoangwd\\Asm2\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "hoangqwe249",
+            "email": "114247573+hoangqwe249@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

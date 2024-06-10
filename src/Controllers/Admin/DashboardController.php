@@ -1,0 +1,12 @@
+<?php
+
+namespace Hoangwd\Asm2\Controllers\Admin;
+
+use Hoangwd\Asm2\Commons\Controller;
+
+class DashboardController extends Controller
+{
+    public function dashboard() {        
+        $this->renderViewAdmin(__FUNCTION__);
+    }
+}
