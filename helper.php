@@ -22,3 +22,9 @@ if (!function_exists('auth_check')) {
         }
     }
 }
+
+// helper.php
+function is_logged()
+{
+    return isset($_SESSION['user']);
+}
